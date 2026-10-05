@@ -14,7 +14,7 @@ namespace Lab_1_Project
             int secondNum = 0;
             string result = null;
 
-            Console.WriteLine("Enter the first number");
+            Console.WriteLine("Enter the first number:");
             result = Console.ReadLine();
 
             try
@@ -26,7 +26,7 @@ namespace Lab_1_Project
                 return;
             }
 
-            Console.WriteLine("Enter the second number");
+            Console.WriteLine("Enter the second number:");
             result = Console.ReadLine();
 
             try
@@ -38,6 +38,7 @@ namespace Lab_1_Project
                 return;
             }
 
+            Console.WriteLine("Result:");
             Console.WriteLine(firstNum + secondNum);
         }
     }
